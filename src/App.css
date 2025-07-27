@@ -1,0 +1,80 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+.body{
+  width:100vw;
+  height:100vh;
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  background-color: #1E1E2F;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  background-color: #2C2C3E;
+  width:800px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+}
+h1{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin:1rem;
+}
+.input{
+  width:80%;
+  height:40px;
+  padding: 5px;
+  border: none;
+  color: #FFFFFF;
+  outline:none;
+  font-size: 1rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  color:#1E1E2F;
+  box-sizing: border-box;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search-bar{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: 1rem auto;
+}
+.search-bar button{
+  height:40px;
+  width:20%;
+  padding:10px;
+  border:none;
+  box-sizing: border-box;
+  background-color: #EF476F;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.sub-container{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  align-items: center;
+  width:700px;
+  height:50px;
+  margin: 1rem auto;
+}
+.slider{
+  height: 20px;
+  border-radius: 10px;
+  background-color:white;
+  outline: none;
+  border: none;
+}
+.slider-label,.checkbox-label{
+  color: #FFFFFF;
+  font-size: 1.1rem;
+}
