@@ -20,6 +20,16 @@ A simple and customizable Password Generator built using **React**. This tool al
 
 <img width="1918" height="870" alt="image" src="https://github.com/user-attachments/assets/d03c25dc-6fcf-4d02-b26b-ed78a6d943b9" />
 
+## 🔮 Future Scope
+
+- **Password Strength Indicator**  
+  Implement a visual meter that shows the strength of the generated password in real-time.
+
+- **Copy to Clipboard Feature**  
+  Add a button that allows users to easily copy the generated password with a single click.
+
+- **Dark Mode Support**  
+  Provide a toggle to switch between light and dark themes for a better user experience.
 
 
 
